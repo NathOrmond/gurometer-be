@@ -10,5 +10,5 @@ function deploy_docker_image () {
     docker run -p80:$1 $2
 }
 
-container_name=dg/gurometer-be
+container_name=dtg/gurometer-be
 build_docker_image $container_name
