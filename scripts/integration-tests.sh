@@ -1,4 +1,4 @@
 #!/bin/bash
 
 echo 'Attempting to run integration tests'
-./mavenw clean test --tests '*IntTests*'
+mvn clean test --tests '*IntTests*'
